@@ -1,0 +1,57 @@
+In TCP/UDP Mode, input must not contain a comma
+
+key has type
+return type unspeified
+
+Error and Warnings:
+
+fork
+*IP address input syntax check
+shoud be xx.xx.xx.xx:portnumber
+
+
+Put
+
+Get
+
+Delete
+
+somtimes forget to release the lock
+
+Network environment
+
+There are several functions that we can reuse, but i don't bother to write a new file and import them.
+
+I even write a stdev myself since there is no numpy and we don't have the permision to install packages.
+
+TCP
+Number of valid Operation:
+150
+Average Time per ops
+0.00135297616323
+STD of average time per ops
+0.000880444281015
+Average TP
+739.111321528
+
+UDP
+Number of valid Operation:
+150
+Average Time per ops
+0.00180566151937
+STD of average time per ops
+0.000718382919546
+Average TP
+553.813651824
+
+RPC
+
+Number of valid Operation:
+150
+Average Time per ops
+0.00216033299764
+STD of average time per ops
+0.00110889091473
+Average TP
+462.891601014
+
